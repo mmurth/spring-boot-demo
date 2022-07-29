@@ -11,4 +11,8 @@ public class SpringBootDemoApplication {
 	}
 	// some comment
 
+	public void doSomething() {
+		// the really cool stuff
+	}
+
 }
