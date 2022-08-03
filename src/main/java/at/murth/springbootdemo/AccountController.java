@@ -10,7 +10,7 @@ public class AccountController {
 
     @CrossOrigin(origins="http://localhost:8080", maxAge = 3600L)
     @GetMapping("/account")
-    public String getBallance() {
+    public String getBalance() {
         return "Your are almost poor."; // rephrased message
     }
 
