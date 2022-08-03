@@ -10,8 +10,13 @@ public class AccountController {
 
     @CrossOrigin(origins="http://localhost:8080", maxAge = 3600L)
     @GetMapping("/account")
-    public String getBallance() {
-        return "Your are poor."; // comment
+    public String getAccount() {
+        return "This is Martin's account."; // comment todo
+    }
+
+    @GetMapping("/balance")
+    public String getBalance() {
+        return "Your are poor.";
     }
 
 }
