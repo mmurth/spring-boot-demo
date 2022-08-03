@@ -8,6 +8,7 @@ class SpringBootDemoApplicationTests {
 
 	@Test
 	void contextLoads() {
+		// feature Aug 8, ß754
 	}
 
 }
